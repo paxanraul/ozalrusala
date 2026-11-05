@@ -9,7 +9,7 @@ body::before { background: radial-gradient(ellipse at center, #38644c44, #051e18
 .hero-intro { margin: 0; }
 .hero-title { font-size: 48px; font-style: italic; letter-spacing: -1.7px; line-height: 1.05; }
 .hero-intro .eyebrow { margin-top: 9px; letter-spacing: 3px; font-size: 10px; }
-.envelope-scene { width: 78%; margin-top: 19px; }
+.envelope-scene { width: 82%; margin-top: 19px; }
 .envelope-back { background: linear-gradient(135deg, #082e22, #2e634b 50%, #0c3526); border-color: #173e2d; box-shadow: 0 18px 24px #0006, inset 0 2px 8px #001e2055; }
 .envelope-monogram { color: #9db699; text-shadow: 0 1px 0 #d4e5c855, 0 -1px 0 #001d1977; }
 .envelope-flap-front::after, .envelope-front::after { opacity: .28; }
@@ -97,7 +97,7 @@ footer > span:first-child { display: none; }
   .hero-title { font-size: 44px; }
   .hero-intro { margin-top: 0; }
   .hero-intro .eyebrow { font-size: 9px; }
-  .envelope-scene { width: 80%; margin-top: 18px; }
+  .envelope-scene { width: 84%; margin-top: 18px; }
   .card-initials { font-size: 74px; letter-spacing: -6px; }
   .card-initials > span { font-size: 32px; }
   .heart-rule { margin-top: 13px; margin-bottom: 9px; width: 35px; }
