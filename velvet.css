@@ -5,6 +5,7 @@ body::before { background: radial-gradient(ellipse at center, #38644c44, #051e18
 .invitation-page { background: var(--velvet); box-shadow: 0 15px 100px #0006; }
 .hero { height: auto; min-height: 0; max-height: none; padding: 48px 0 50px; background: url("assets/velvet/velvet.webp") center / cover no-repeat; }
 .hero-shade { background: linear-gradient(#031b1715, #031b1735); }
+.hero::after { content: ""; position: absolute; z-index: -1; inset: auto 0 0; height: 90px; background: linear-gradient(transparent, var(--velvet)); pointer-events: none; }
 .hero-intro { margin: 0; }
 .hero-title { font-size: 48px; font-style: italic; letter-spacing: -1.7px; line-height: 1.05; }
 .hero-intro .eyebrow { margin-top: 9px; letter-spacing: 3px; font-size: 10px; }
@@ -27,6 +28,7 @@ body::before { background: radial-gradient(ellipse at center, #38644c44, #051e18
 .scroll-cue > span:first-child { display: none; }
 .scroll-line { height: 25px; }
 .story-background { background: linear-gradient(#062a1e66, #021c1777), url("assets/velvet/velvet.webp") center / 100% 100% no-repeat; padding-top: 20px; }
+.story-background::before { content: ""; position: absolute; inset: 0 0 auto; height: 90px; background: linear-gradient(var(--velvet), transparent); pointer-events: none; }
 .paper-panel { margin-inline: 36px; padding-inline: 30px; background: var(--paper); border-radius: 170px 170px 5px 5px; box-shadow: 0 10px 27px #0004; }
 .paper-panel::before { opacity: .35; }
 .paper-panel::after { content: ""; position: absolute; z-index: -1; inset: 9px; border: 1px solid #83917385; border-radius: 160px 160px 2px 2px; pointer-events: none; }
