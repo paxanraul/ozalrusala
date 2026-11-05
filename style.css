@@ -132,9 +132,9 @@ footer > span:last-child { display: block; font-size: 15px; font-style: italic; 
 .will-reveal { opacity: 0; transform: translateY(20px); }
 
 @media (prefers-reduced-motion: no-preference) {
-  .wax-seal { animation: release-seal .45s .6s cubic-bezier(.4, 0, .2, 1) both; }
-  .envelope-flap { animation: open-flap 1.3s .95s cubic-bezier(.4, 0, .2, 1) both; }
-  .heart-card { animation: lift-card 1.7s 1.7s cubic-bezier(.22, .61, .28, 1) both; }
+  .wax-seal { animation: release-seal .95s .9s cubic-bezier(.4, 0, .2, 1) both; }
+  .envelope-flap { animation: open-flap 2.8s 1.65s cubic-bezier(.4, 0, .25, 1) both; }
+  .heart-card { animation: lift-card 3.8s 3.4s cubic-bezier(.35, 0, .2, 1) both; }
   @keyframes release-seal {
     0% { transform: translate3d(-50%, -50%, 0) rotate(-7deg) scale(1); opacity: 1; visibility: visible; }
     35% { transform: translate3d(-50%, calc(-50% - 9px), 0) rotate(-11deg) scale(1.04); opacity: 1; }
