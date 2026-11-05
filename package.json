@@ -1,0 +1,10 @@
+{
+  "name": "ozal-rusala-wedding",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wedding invitation · Ozal & Rusala · 14 November 2026",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "check": "node --check script.js"
+  }
+}
