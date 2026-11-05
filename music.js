@@ -41,14 +41,16 @@
   const firstGesture = (event) => {
     if (chosen || button.contains(event.target)) return;
     if (event.type === "keydown" && (event.repeat || event.ctrlKey || event.metaKey || event.altKey)) return;
-    if (!enabled) void start();
+    // Retry within the gesture even when an earlier autoplay request is pending.
+    // Safari may only grant audible playback on touchend/click.
+    if (audio.paused || !enabled) void start();
   };
-  const events = ["pointerdown", "touchstart", "keydown"];
-  events.forEach((event) => window.addEventListener(event, firstGesture, { passive: true }));
+  const events = ["pointerdown", "touchstart", "touchend", "pointerup", "click", "keydown"];
+  events.forEach((event) => window.addEventListener(event, firstGesture, { capture: true, passive: true }));
 
   button.addEventListener("click", () => {
     chosen = true;
-    events.forEach((event) => window.removeEventListener(event, firstGesture));
+    events.forEach((event) => window.removeEventListener(event, firstGesture, true));
     if (enabled) stop();
     else void start();
   });
