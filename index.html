@@ -20,12 +20,22 @@
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="style.css?v=grip-1">
-    <link rel="stylesheet" href="velvet.css?v=envelope-4">
+    <link rel="stylesheet" href="velvet.css?v=music-1">
     <link rel="stylesheet" href="grip.css?v=grip-1">
     <link rel="preload" as="image" href="assets/velvet/velvet.webp">
     <script src="script.js?v=start-17" defer></script>
+    <script src="music.js?v=music-1" defer></script>
   </head>
   <body>
+    <audio id="wedding-music" src="assets/audio/liora.m4a" loop preload="auto" playsinline></audio>
+    <button class="music-toggle" id="music-toggle" type="button" aria-label="Включить звук" aria-pressed="false" hidden>
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 9v6h4l5 4V5L8 9H4Z"/>
+        <path class="music-waves" d="M17 8c3 2 3 6 0 8m3-11c5 4 5 10 0 14"/>
+        <path class="music-cross" d="m17 9 5 6m0-6-5 6"/>
+      </svg>
+      <span>Включить звук</span>
+    </button>
     <a class="skip-link" href="#invitation">Перейти к приглашению</a>
     <main class="invitation-page">
       <section class="hero" aria-labelledby="couple-names">
