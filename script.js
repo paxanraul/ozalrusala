@@ -1,6 +1,6 @@
 "use strict";
 
-const WEDDING_DATE = new Date("2026-11-14T18:00:00+03:00").getTime();
+const WEDDING_DATE = new Date("2026-11-14T17:00:00+03:00").getTime();
 const countdown = document.getElementById("countdown");
 const celebration = document.getElementById("celebration-message");
 const countdownNote = document.getElementById("countdown-note");
