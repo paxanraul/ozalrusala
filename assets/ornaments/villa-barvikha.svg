@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none" stroke="#faf8f2" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
+<title>Villa Барвиха 135 — рисунок фасада</title>
+<defs>
+ <g id="arch"><path d="M0 62V22a18 22 0 0 1 36 0v40Z"/><path d="M-4 65V22a22 26 0 0 1 44 0v43M-5 68h46M-3 71h42M18 1v61M1 28h34M1 46h34M7 5l11 23L29 5M18 28L2 17m16 11 16-11"/><path d="M4 61V23a14 18 0 0 1 28 0v38" stroke-opacity=".45" stroke-width=".7"/></g>
+ <g id="lower-window"><path d="M0 0h36v80H0ZM-4-4h44v87H-4M18 0v80M0 27h36M0 53h36M3 3h30v74"/><path d="M-5 85h46M-5 88h46"/></g>
+ <g id="column"><path d="M0 0h19v5H0ZM3 5h13v5H3ZM5 10h9l1 74H4ZM1 84h17v5H1ZM-2 89h23v4H-2"/><path d="M7 13L6 81m5-68 1 68" stroke-width=".6" stroke-opacity=".6"/></g>
+ <g id="urn"><path d="M0 0h12M2-2h8v-3H2ZM3-6q-7-13 3-17q10 4 3 17ZM2-17q-9-5-6 1q1 4 6 4m8-5q9-5 6 1q-1 4-6 4M6-23v-3"/></g>
+ <g id="scroll"><path d="M0 0q-10-8-14 0q-4 6 2 7q5-1 1-4M0 0q10-8 14 0q4 6-2 7q-5-1-1-4M0-1v15M-4 15h8"/></g>
+ <g id="railing"><path d="M0 0v21m20-21v21M0 2q20 3 10 11q-11 8-10-1q1-5 5-2m15-8Q0 5 10 13q11 8 10-1q-1-5-5-2" stroke-width=".85"/></g>
+ <g id="bush"><path d="M-26 6q-7-10 3-14q-1-10 10-9q6-12 14-4q10-7 15 3q12-2 12 9q12 4 6 14M-26 7q30 6 60-1"/><path d="M-21-2l7 5m-1-14 6 8m7-12 3 11m9-6-3 8m12-4-7 6m-31 0 6 4m8-5 4 5m8-5 7 4" stroke-width=".7" opacity=".55"/></g>
+</defs>
+<path d="M73 351V131h208m238 0h208v220M68 351h218m228 0h218M68 357h664M73 147h210m234 0h210M68 128h215m234 0h215M69 135h213m236 0h213M77 156h202m242 0h202M78 247h200m244 0h200M79 253h199m244 0h199"/>
+<path d="M78 143h31v208h-31Z M74 135h39v8h-39Z M76 126h35v9h-35Z"/>
+<path d="M78 171h31" opacity=".55"/>
+<path d="M78 197h31" opacity=".55"/>
+<path d="M78 223h31" opacity=".55"/>
+<path d="M78 249h31" opacity=".55"/>
+<path d="M78 275h31" opacity=".55"/>
+<path d="M78 301h31" opacity=".55"/>
+<path d="M78 327h31" opacity=".55"/>
+<circle cx="93.5" cy="159" r="6"/><path d="M90 158q6-6 8 0q-1 4-5 2" stroke-width=".7"/>
+<use href="#urn" transform="translate(88 125) scale(.75)"/>
+<path d="M691 143h31v208h-31Z M687 135h39v8h-39Z M689 126h35v9h-35Z"/>
+<path d="M691 171h31" opacity=".55"/>
+<path d="M691 197h31" opacity=".55"/>
+<path d="M691 223h31" opacity=".55"/>
+<path d="M691 249h31" opacity=".55"/>
+<path d="M691 275h31" opacity=".55"/>
+<path d="M691 301h31" opacity=".55"/>
+<path d="M691 327h31" opacity=".55"/>
+<circle cx="706.5" cy="159" r="6"/><path d="M703 158q6-6 8 0q-1 4-5 2" stroke-width=".7"/>
+<use href="#urn" transform="translate(701 125) scale(.75)"/>
+<use href="#arch" transform="translate(128 179)"/><use href="#lower-window" transform="translate(128 265)"/>
+<use href="#scroll" transform="translate(146 160) scale(.65)"/>
+<use href="#arch" transform="translate(188 179)"/><use href="#lower-window" transform="translate(188 265)"/>
+<use href="#scroll" transform="translate(206 160) scale(.65)"/>
+<use href="#arch" transform="translate(248 179)"/><use href="#lower-window" transform="translate(248 265)"/>
+<use href="#scroll" transform="translate(266 160) scale(.65)"/>
+<use href="#arch" transform="translate(516 179)"/><use href="#lower-window" transform="translate(516 265)"/>
+<use href="#scroll" transform="translate(534 160) scale(.65)"/>
+<use href="#arch" transform="translate(576 179)"/><use href="#lower-window" transform="translate(576 265)"/>
+<use href="#scroll" transform="translate(594 160) scale(.65)"/>
+<use href="#arch" transform="translate(636 179)"/><use href="#lower-window" transform="translate(636 265)"/>
+<use href="#scroll" transform="translate(654 160) scale(.65)"/>
+<path d="M112 191h8" opacity=".4" stroke-width=".7"/>
+<path d="M112 214h8" opacity=".4" stroke-width=".7"/>
+<path d="M112 237h8" opacity=".4" stroke-width=".7"/>
+<path d="M112 279h8" opacity=".4" stroke-width=".7"/>
+<path d="M112 303h8" opacity=".4" stroke-width=".7"/>
+<path d="M112 327h8" opacity=".4" stroke-width=".7"/>
+<path d="M172 191h8" opacity=".4" stroke-width=".7"/>
+<path d="M172 214h8" opacity=".4" stroke-width=".7"/>
+<path d="M172 237h8" opacity=".4" stroke-width=".7"/>
+<path d="M172 279h8" opacity=".4" stroke-width=".7"/>
+<path d="M172 303h8" opacity=".4" stroke-width=".7"/>
+<path d="M172 327h8" opacity=".4" stroke-width=".7"/>
+<path d="M232 191h8" opacity=".4" stroke-width=".7"/>
+<path d="M232 214h8" opacity=".4" stroke-width=".7"/>
+<path d="M232 237h8" opacity=".4" stroke-width=".7"/>
+<path d="M232 279h8" opacity=".4" stroke-width=".7"/>
+<path d="M232 303h8" opacity=".4" stroke-width=".7"/>
+<path d="M232 327h8" opacity=".4" stroke-width=".7"/>
+<path d="M500 191h8" opacity=".4" stroke-width=".7"/>
+<path d="M500 214h8" opacity=".4" stroke-width=".7"/>
+<path d="M500 237h8" opacity=".4" stroke-width=".7"/>
+<path d="M500 279h8" opacity=".4" stroke-width=".7"/>
+<path d="M500 303h8" opacity=".4" stroke-width=".7"/>
+<path d="M500 327h8" opacity=".4" stroke-width=".7"/>
+<path d="M560 191h8" opacity=".4" stroke-width=".7"/>
+<path d="M560 214h8" opacity=".4" stroke-width=".7"/>
+<path d="M560 237h8" opacity=".4" stroke-width=".7"/>
+<path d="M560 279h8" opacity=".4" stroke-width=".7"/>
+<path d="M560 303h8" opacity=".4" stroke-width=".7"/>
+<path d="M560 327h8" opacity=".4" stroke-width=".7"/>
+<path d="M620 191h8" opacity=".4" stroke-width=".7"/>
+<path d="M620 214h8" opacity=".4" stroke-width=".7"/>
+<path d="M620 237h8" opacity=".4" stroke-width=".7"/>
+<path d="M620 279h8" opacity=".4" stroke-width=".7"/>
+<path d="M620 303h8" opacity=".4" stroke-width=".7"/>
+<path d="M620 327h8" opacity=".4" stroke-width=".7"/>
+<path d="M680 191h8" opacity=".4" stroke-width=".7"/>
+<path d="M680 214h8" opacity=".4" stroke-width=".7"/>
+<path d="M680 237h8" opacity=".4" stroke-width=".7"/>
+<path d="M680 279h8" opacity=".4" stroke-width=".7"/>
+<path d="M680 303h8" opacity=".4" stroke-width=".7"/>
+<path d="M680 327h8" opacity=".4" stroke-width=".7"/>
+<path d="M280 350V142h240v208Z" fill="#124c3c"/>
+<path d="M271 145v-36Q317 83 379 63v11Q322 94 284 115v21h232v-21Q478 94 421 74V63q62 20 108 46v36ZM282 134q118-19 236 0M284 126q116-20 232 0M294 114q40-23 85-34m42 0q45 11 85 34M271 145q129-19 258 0M271 150q129-17 258 0"/>
+<path d="M390 113h20M394 110h12l-2-10q12-6 8-13q-2-5-7-1q-7-6-12 0q-5-4-7 1q-4 7 8 13ZM393 85q-1-9 7-12q8 3 7 12M400 74v-6"/>
+<path d="M296 153h208M299 157h202M294 347h212"/>
+<text x="400" y="122" stroke="none" fill="#faf8f2" font-family="Georgia,serif" font-style="italic" font-size="16" text-anchor="middle">Барвиха 135</text>
+<use href="#urn" transform="translate(300 101) scale(.8)"/>
+<use href="#urn" transform="translate(488 101) scale(.8)"/>
+<path d="M310 163h30v68h-30ZM308 160h34v74h-34M325 164v67M310 188h30M310 211h30"/>
+<path d="M360 163h30v68h-30ZM358 160h34v74h-34M375 164v67M360 188h30M360 211h30"/>
+<path d="M410 163h30v68h-30ZM408 160h34v74h-34M425 164v67M410 188h30M410 211h30"/>
+<path d="M460 163h30v68h-30ZM458 160h34v74h-34M475 164v67M460 188h30M460 211h30"/>
+<path d="M311 263h30v83h-30ZM326 263v83M311 291h30M311 319h30"/>
+<path d="M459 263h30v83h-30ZM474 263v83M459 291h30M459 319h30"/>
+<path d="M355 347v-85h90v85M359 345v-79h82v79M383 266v79m34-79v79m-17-79v79M359 292h82M397 314v9m6-9v9"/>
+<use href="#column" transform="translate(284 151) scale(1 .94)" fill="#124c3c"/>
+<use href="#column" transform="translate(335 151) scale(1 .94)" fill="#124c3c"/>
+<use href="#column" transform="translate(446 151) scale(1 .94)" fill="#124c3c"/>
+<use href="#column" transform="translate(497 151) scale(1 .94)" fill="#124c3c"/>
+<path d="M276 238Q400 262 524 238v13Q400 277 276 251ZM277 242Q400 267 523 242M282 251v10Q400 285 518 261v-10M284 268Q400 290 516 268" fill="#124c3c"/>
+<use href="#railing" transform="translate(290 242.60) scale(1 .72)"/>
+<use href="#railing" transform="translate(310 245.38) scale(1 .72)"/>
+<use href="#railing" transform="translate(330 247.60) scale(1 .72)"/>
+<use href="#railing" transform="translate(350 249.26) scale(1 .72)"/>
+<use href="#railing" transform="translate(370 250.38) scale(1 .72)"/>
+<use href="#railing" transform="translate(390 250.93) scale(1 .72)"/>
+<use href="#railing" transform="translate(410 250.93) scale(1 .72)"/>
+<use href="#railing" transform="translate(430 250.38) scale(1 .72)"/>
+<use href="#railing" transform="translate(450 249.26) scale(1 .72)"/>
+<use href="#railing" transform="translate(470 247.60) scale(1 .72)"/>
+<use href="#railing" transform="translate(490 245.38) scale(1 .72)"/>
+<use href="#railing" transform="translate(510 242.60) scale(1 .72)"/>
+<path d="M283 238Q400 258 517 238M283 235Q400 255 517 235"/>
+<use href="#column" transform="translate(284 268) scale(1 .86)" fill="#124c3c"/>
+<use href="#column" transform="translate(335 268) scale(1 .86)" fill="#124c3c"/>
+<use href="#column" transform="translate(446 268) scale(1 .86)" fill="#124c3c"/>
+<use href="#column" transform="translate(497 268) scale(1 .86)" fill="#124c3c"/>
+<path d="M289 350h222v4H289Z"/>
+<path d="M283 356h234v4H283Z"/>
+<path d="M277 362h246v4H277Z"/>
+<path d="M271 369h258v4H271Z"/>
+<path d="M270 373L188 437m342-64 82 64M270 378l-52 47m312-47 52 47M33 374h226m282 0h226M22 381h228m300 0h228M12 440q387 4 776 0" opacity=".7"/>
+<use href="#bush" transform="translate(36 365) scale(.9)"/>
+<use href="#bush" transform="translate(89 369) scale(.9)"/>
+<use href="#bush" transform="translate(144 365) scale(.9)"/>
+<use href="#bush" transform="translate(201 365) scale(.9)"/>
+<use href="#bush" transform="translate(596 369) scale(.9)"/>
+<use href="#bush" transform="translate(650 369) scale(.9)"/>
+<use href="#bush" transform="translate(705 365) scale(.9)"/>
+<use href="#bush" transform="translate(759 365) scale(.9)"/>
+<path d="M250 380v-26m-3 0h6v-6h-6ZM247 380h6" stroke-width="1"/>
+<path d="M216 416v-26m-3 0h6v-6h-6ZM213 416h6" stroke-width="1"/>
+<path d="M550 380v-26m-3 0h6v-6h-6ZM547 380h6" stroke-width="1"/>
+<path d="M584 416v-26m-3 0h6v-6h-6ZM581 416h6" stroke-width="1"/>
+<path d="M253 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M272 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M291 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M310 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M329 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M348 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M367 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M386 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M405 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M424 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M443 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M462 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M481 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M500 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M519 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M538 389l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M236 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M255 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M274 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M293 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M312 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M331 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M350 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M369 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M388 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M407 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M426 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M445 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M464 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M483 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M502 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M521 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M540 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M559 401l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M218 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M237 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M256 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M275 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M294 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M313 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M332 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M351 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M370 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M389 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M408 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M427 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M446 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M465 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M484 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M503 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M522 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M541 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M560 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M579 414l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M197 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M216 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M235 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M254 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M273 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M292 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M311 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M330 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M349 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M368 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M387 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M406 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M425 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M444 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M463 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M482 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M501 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M520 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M539 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M558 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M577 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M596 429l7 2m-4-6 3 1" opacity=".3" stroke-width=".6"/>
+<path d="M86 177l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 187l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 197l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 207l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 217l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 227l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 237l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 247l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 257l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 267l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 277l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 287l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 297l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 307l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 317l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 327l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M86 337l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 177l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 187l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 197l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 207l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 217l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 227l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 237l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 247l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 257l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 267l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 277l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 287l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 297l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 307l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 317l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 327l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M699 337l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 177l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 187l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 197l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 207l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 217l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 227l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 237l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 247l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 257l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 267l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 277l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 287l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 297l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 307l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 317l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 327l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M290 337l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 177l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 187l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 197l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 207l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 217l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 227l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 237l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 247l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 257l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 267l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 277l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 287l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 297l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 307l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 317l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 327l4-3" opacity=".25" stroke-width=".6"/>
+<path d="M506 337l4-3" opacity=".25" stroke-width=".6"/>
+</svg>
