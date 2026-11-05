@@ -23,6 +23,8 @@
 
 Для обычного статического хостинга достаточно загрузить `index.html`, `style.css`, `velvet.css`, `grip.css`, `script.js` и каталог `assets` (исходные JPG можно исключить).
 
-Текущая публикация: https://paxanraul.github.io/ozalrusala/. Метатеги превью и canonical настроены на этот адрес; при смене домена обновите их в `index.html`.
+Основной сайт: https://ozalrusala.ru/. Размещён на Nginx в `/var/www/ozalrusala`, конфигурация — `/etc/nginx/sites-available/ozalrusala.ru`. HTTPS для основного домена и www управляется Certbot с автоматическим продлением.
+
+Резервная публикация: https://paxanraul.github.io/ozalrusala/. Метатеги превью и canonical настроены на этот адрес; при смене домена обновите их в `index.html`.
 
 Шрифты Cormorant Garamond и Pinyon Script распространяются по SIL Open Font License; тексты лицензий находятся в `assets/fonts`.
