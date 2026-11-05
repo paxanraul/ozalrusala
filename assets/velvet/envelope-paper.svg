@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" fill="none">
+ <defs>
+  <linearGradient id="side" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#2b614d"/><stop offset=".5" stop-color="#143f31"/><stop offset="1" stop-color="#245641"/></linearGradient>
+  <linearGradient id="face" x1=".2" y1="0" x2=".65" y2="1"><stop stop-color="#39705a"/><stop offset=".5" stop-color="#245641"/><stop offset="1" stop-color="#123f30"/></linearGradient>
+  <linearGradient id="edge" x2="1" y2="1"><stop stop-color="#b3a78d" stop-opacity=".5"/><stop offset=".5" stop-color="#b3a78d" stop-opacity=".12"/><stop offset="1" stop-color="#b3a78d" stop-opacity=".4"/></linearGradient>
+  <g id="sprig" stroke-linecap="round" stroke-linejoin="round">
+   <path d="M44 106Q14 61 44 8M34 81Q3 77 8 56Q29 57 34 81ZM30 64Q53 62 57 42Q38 43 30 64ZM30 48Q6 42 15 25Q33 31 30 48ZM36 28Q53 25 54 8Q38 12 36 28ZM44 9Q32 9 35 0Q46-1 44 9ZM44 106Q70 96 65 79Q46 83 44 106ZM38 90Q9 96 5 80Q22 74 38 90Z"/>
+   <path d="M8 56l26 25M30 64l27-22M15 25l15 23M36 28L54 8M44 106l21-27M5 80l33 10" stroke-width=".6"/>
+  </g>
+  <g id="boughs"><use href="#sprig" transform="translate(18 144) rotate(-12 40 55) scale(.68)"/><use href="#sprig" transform="translate(402 144) scale(-1 1) rotate(-12 40 55) scale(.68)"/></g>
+ </defs>
+ <path d="M0 0L210 121L420 0V228Q420 240 408 240H12Q0 240 0 228Z" fill="url(#side)"/>
+ <path d="M1 0L186 114M419 0L234 114" stroke="#9f9279" stroke-opacity=".27" stroke-width="1.4"/>
+ <path d="M0 233L180 105Q210 86 240 105L420 233" stroke="#8a7c60" stroke-opacity=".16" stroke-width="4"/>
+ <path d="M0 231L180 103Q210 84 240 103L420 231V228Q420 240 408 240H12Q0 240 0 228Z" fill="url(#face)"/>
+ <path d="M2 230L181 103Q210 84 239 103L418 230" stroke="url(#edge)"/>
+ <path d="M6 230L183 106Q210 89 237 106L414 230" stroke="#6f977d" stroke-opacity=".8"/>
+ <path d="M2 229V231Q2 238 12 238H408Q418 238 418 231V229" stroke="#082c20" stroke-opacity=".5"/>
+ <path d="M6 233Q8 235 14 235H406Q412 235 414 233" stroke="#73977a" stroke-opacity=".8"/>
+ <use href="#boughs" transform="translate(1 1)" stroke="#749b7e" stroke-width="2.3"/>
+ <use href="#boughs" stroke="#153b2a" stroke-opacity=".68" stroke-width="1.15"/>
+</svg>

@@ -1,0 +1,152 @@
+/* Emerald velvet stationery: material-led treatment of the invitation. */
+:root { --velvet: #082d23; --paper: #faf6eb; --body: Arial, Helvetica, sans-serif; }
+body { background: #0a3026; }
+body::before { background: radial-gradient(ellipse at center, #38644c44, #051e1888); }
+.invitation-page { background: var(--velvet); box-shadow: 0 15px 100px #0006; }
+.hero { height: auto; min-height: 0; max-height: none; padding: 48px 0 50px; background: url("assets/velvet/velvet.webp") center / cover no-repeat; }
+.hero-shade { background: linear-gradient(#031b1715, #031b1735); }
+.hero-intro { margin: 0; }
+.hero-title { font-size: 48px; font-style: italic; letter-spacing: -1.7px; line-height: 1.05; }
+.hero-intro .eyebrow { margin-top: 9px; letter-spacing: 3px; font-size: 10px; }
+.envelope-scene { width: 74%; margin-top: 19px; }
+.hero-hands { position: absolute; z-index: 7; left: -30%; top: 38%; width: 160%; max-width: none; height: auto; pointer-events: none; filter: drop-shadow(0 8px 8px #0004); }
+.envelope-back { background: linear-gradient(135deg, #082e22, #2e634b 50%, #0c3526); border-color: #173e2d; box-shadow: 0 18px 24px #0006, inset 0 2px 8px #001e2055; }
+.envelope-monogram { color: #9db699; text-shadow: 0 1px 0 #d4e5c855, 0 -1px 0 #001d1977; }
+.envelope-flap-front::after, .envelope-front::after { opacity: .28; }
+.heart-lettering { top: 35%; }
+.card-initials { font-size: 89px; font-style: italic; line-height: 1; letter-spacing: -8px; padding-right: 7px; }
+.card-initials > span { font-size: 39px; vertical-align: 3px; margin-inline: 2px; }
+.heart-rule { margin: 15px auto 12px; }
+.heart-date { font-size: 12px; letter-spacing: 2px; }
+.wax-monogram { color: #746847; text-shadow: 0 1px 0 #fff8df, 0 -1px 0 #a28c5966; }
+.hero-signature { text-align: center; margin-top: 38px; position: relative; z-index: 8; }
+.hero-signature h1 { font-family: var(--script); font-size: 68px; line-height: 1.1; font-weight: 400; }
+.hero-signature h1 > span { font-family: var(--serif); font-size: 42px; font-style: italic; }
+.hero-signature > p { font: 8px/1.6 var(--body); letter-spacing: 2.6px; margin-top: 18px; opacity: .65; }
+.scroll-cue { margin-top: 26px; padding-top: 0; gap: 13px; }
+.scroll-cue > span:first-child { display: none; }
+.scroll-line { height: 25px; }
+.story-background { background: linear-gradient(#062a1e66, #021c1777), url("assets/velvet/velvet.webp") center / 100% 100% no-repeat; padding-top: 20px; }
+.paper-panel { margin-inline: 36px; padding-inline: 30px; background: var(--paper); border-radius: 170px 170px 5px 5px; box-shadow: 0 10px 27px #0004; }
+.paper-panel::before { opacity: .35; }
+.paper-panel::after { content: ""; position: absolute; z-index: -1; inset: 9px; border: 1px solid #83917385; border-radius: 160px 160px 2px 2px; pointer-events: none; }
+.panel-seal { position: absolute; z-index: 3; width: 54px; height: 54px; left: 50%; top: -24px; transform: translateX(-50%) rotate(-7deg); filter: drop-shadow(1px 3px 2px #0004); }
+.panel-seal > img { width: 100%; height: 100%; }
+.panel-seal > span { position: absolute; inset: 0; display: grid; place-items: center; font-size: 17px; font-style: italic; color: #756746; letter-spacing: -2px; padding-right: 2px; text-shadow: 0 1px #fff8e1; }
+.invitation-panel { padding-top: 67px; padding-bottom: 103px; }
+.portrait-frame { width: 157px; aspect-ratio: 4 / 5; margin-bottom: 32px; border: 1px solid #9caa8a; border-radius: 90px 90px 5px 5px; padding: 5px; }
+.portrait-window { inset: 5px; width: auto; height: auto; border-radius: 84px 84px 2px 2px; }
+.portrait-photo { transform: scale(1.6); transform-origin: 100% 0; }
+.invitation-message .eyebrow { font-size: 8px; letter-spacing: 2px; }
+.invitation-message h2 { font-size: 43px; line-height: 1; margin: 15px 0 25px; }
+.invitation-message > p:not(.eyebrow) { font: 14px/1.75 var(--body); }
+.invitation-message > p + p { margin-top: 17px; }
+.wide-only { display: none; }
+.divider { margin-block: 25px; width: 100px; }
+.calendar-block { margin-top: 30px; }
+.calendar-block .eyebrow { font-size: 8px; letter-spacing: 2px; }
+.calendar-block h3 { font-size: 38px; margin-bottom: 23px; }
+.calendar { max-width: 300px; }
+.calendar th { font-size: 10px; }
+.calendar td { height: 35px; font-size: 21px; }
+.calendar-date { margin-top: 25px; font-size: 17px; }
+.fabric-divider { position: relative; z-index: 4; height: 232px; margin-top: -70px; margin-bottom: 18px; pointer-events: none; }
+.fabric-divider > img { width: 118%; height: 100%; max-width: none; margin-left: -9%; object-fit: fill; filter: drop-shadow(0 12px 10px #0005); }
+.location-section { color: var(--ivory); padding: 10px 36px 45px; }
+.location-section .eyebrow { font-size: 8px; letter-spacing: 2.4px; opacity: .75; }
+.location-section h2 { margin-top: 16px; font-size: 49px; }
+.venue-illustration { width: calc(100% + 50px); margin: 13px -25px 48px; }
+.venue-card { position: relative; isolation: isolate; background: var(--paper); color: var(--ink); padding: 48px 24px 30px; border-radius: 2px; box-shadow: 0 12px 25px #0005; }
+.venue-card::before { content: ""; position: absolute; z-index: -1; inset: 0; background: url("assets/ornaments/paper-grain.svg"); opacity: .32; }
+.venue-card::after { content: ""; position: absolute; z-index: -1; inset: 8px; border: 1px solid #9ba78b77; pointer-events: none; }
+.venue-pretitle { font-size: 34px; font-style: italic; line-height: 1.05; letter-spacing: -1px; opacity: 1; }
+.venue-name { font-size: 25px; margin-top: 25px; }
+.venue-name > span { font-size: 39px; font-style: italic; margin-top: 3px; }
+.venue-address { font: 13px/1.7 var(--body); margin-top: 18px; opacity: .85; }
+.venue-card .button { background: var(--emerald); color: var(--paper); margin-top: 25px; min-height: 44px; font: 9px/1.5 var(--body); letter-spacing: 1px; padding: 12px 17px; }
+.venue-card .button:hover { background: #285e45; }
+.time-ornament { margin: 29px 0 0; }
+.time-label, .time-date { font: 8px/1.6 var(--body); letter-spacing: 1.6px; opacity: .7; }
+.event-time { font-size: 55px; margin-top: 6px; letter-spacing: 0; }
+.venue-flowers { position: relative; z-index: 2; width: 98%; height: auto; margin: -5px auto 0; filter: drop-shadow(0 10px 9px #0003); }
+.countdown-panel { padding-top: 58px; padding-bottom: 98px; }
+.countdown-panel h2 { font-size: 42px; margin-top: 13px; }
+.countdown-content .eyebrow { font-size: 8px; letter-spacing: 1.6px; }
+.countdown-note { font: 11px/1.7 var(--body); margin-top: 20px; }
+.countdown { gap: 6px; margin-top: 25px; }
+.countdown > div { min-width: 42px; }
+.countdown-number { font-size: 45px; }
+.countdown-label { font: 7px/1.5 var(--body); margin-top: 10px; letter-spacing: .7px; }
+.countdown-dot { font-size: 23px; }
+.countdown-afterword { font-size: 20px; }
+.closing-section { display: flex; flex-direction: column; align-items: center; height: auto; margin-top: 0; padding: 0 24px 38px; color: var(--ivory); }
+.closing-photo { position: relative; inset: auto; z-index: 0; display: block; width: 79%; aspect-ratio: 3 / 4; border-radius: 180px 180px 4px 4px; padding: 6px; border: 1px solid #dbe0c7a6; background: #faf6eb; box-shadow: 0 10px 30px #0005; }
+.closing-photo img { border-radius: inherit; object-position: 50% 67%; filter: saturate(.7); }
+.closing-content { position: relative; left: auto; right: auto; bottom: auto; margin-top: 38px; width: 100%; }
+.closing-content > p:first-child { font-size: 30px; font-style: italic; line-height: 1.2; }
+.closing-flowers { width: 230px; height: auto; margin: 25px auto 5px; }
+.closing-with-love { margin-top: 5px; font-size: 21px; }
+.closing-content h2 { font-size: 66px; margin-top: 12px; }
+.closing-date { font-size: 12px; letter-spacing: 3.5px; margin-top: 17px; }
+footer { padding-bottom: 35px; }
+footer > span:first-child { display: none; }
+
+@media (max-width: 420px) {
+  .hero { padding-top: 43px; padding-bottom: 35px; min-height: 0; height: auto; max-height: none; }
+  .hero-title { font-size: 44px; }
+  .hero-intro { margin-top: 0; }
+  .hero-intro .eyebrow { font-size: 9px; }
+  .envelope-scene { width: 76%; margin-top: 18px; }
+  .card-initials { font-size: 74px; letter-spacing: -6px; }
+  .card-initials > span { font-size: 32px; }
+  .heart-rule { margin-top: 13px; margin-bottom: 9px; width: 35px; }
+  .heart-date { font-size: 10px; letter-spacing: 1.7px; }
+  .hero-signature { margin-top: 36px; }
+  .hero-signature h1 { font-size: 57px; }
+  .hero-signature h1 > span { font-size: 35px; }
+  .hero-signature > p { font-size: 7px; letter-spacing: 2px; margin-top: 15px; }
+  .scroll-cue { margin-top: 24px; }
+  .paper-panel { margin-inline: 27px; padding-inline: 25px; }
+  .invitation-panel { padding-top: 59px; padding-bottom: 92px; }
+  .portrait-frame { width: 145px; margin-bottom: 29px; }
+  .invitation-message h2 { font-size: 38px; }
+  .invitation-message > p:not(.eyebrow) { font-size: 13px; line-height: 1.75; }
+  .calendar { width: calc(100% + 12px); margin-inline: -6px; }
+  .calendar td { height: 33px; font-size: 20px; }
+  .wedding-day span { width: 35px; height: 33px; }
+  .calendar th { font-size: 9px; }
+  .calendar-block h3 { font-size: 33px; }
+  .fabric-divider { height: 185px; margin-top: -65px; margin-bottom: 15px; }
+  .location-section { padding: 10px 31px 43px; }
+  .location-section h2 { font-size: 43px; }
+  .venue-card { padding: 45px 20px 26px; }
+  .venue-pretitle { font-size: 31px; }
+  .venue-name > span { font-size: 36px; }
+  .venue-illustration { margin-bottom: 43px; }
+  .venue-address { font-size: 13px; }
+  .event-time { font-size: 52px; }
+  .venue-flowers { width: 108%; max-width: none; margin-left: -4%; }
+  .countdown-panel { padding-top: 53px; padding-bottom: 90px; }
+  .countdown-panel h2 { font-size: 35px; }
+  .countdown { gap: 4px; }
+  .countdown > div { min-width: 35px; }
+  .countdown-number { font-size: 39px; }
+  .countdown-dot { font-size: 20px; }
+  .countdown-label { font-size: 6px; }
+  .countdown-afterword { font-size: 18px; }
+  .closing-section { margin-top: 0; padding-inline: 20px; }
+  .closing-content > p:first-child { font-size: 26px; }
+  .closing-content h2 { font-size: 57px; }
+}
+
+@media (max-width: 359px) {
+  .hero-signature h1, .closing-content h2 { font-size: 49px; }
+  .paper-panel { margin-inline: 22px; padding-inline: 22px; }
+  .card-initials { font-size: 65px; }
+  .countdown-number { font-size: 34px; }
+  .countdown > div { min-width: 30px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-hands { transform: none; }
+}

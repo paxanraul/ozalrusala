@@ -10,7 +10,7 @@
     <meta property="og:title" content="Ozal & Rusala — 14.11.2026">
     <meta property="og:description" content="Будем счастливы разделить этот день с вами. 14 ноября · 18:00 · Villa Барвиха 135.">
     <meta property="og:url" content="https://paxanraul.github.io/ozalrusala/">
-    <meta property="og:image" content="https://paxanraul.github.io/ozalrusala/assets/social-preview.jpg">
+    <meta property="og:image" content="https://paxanraul.github.io/ozalrusala/assets/social-preview-velvet.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Ozal & Rusala · Приглашение на свадьбу · 14 ноября 2026">
@@ -20,59 +20,53 @@
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="preload" as="image" href="assets/photos/cover-960.webp" imagesrcset="assets/photos/cover-480.webp 480w, assets/photos/cover-960.webp 960w, assets/photos/cover-1440.webp 1440w" imagesizes="(max-width: 520px) 100vw, 520px">
+    <link rel="stylesheet" href="velvet.css">
+    <link rel="preload" as="image" href="assets/velvet/velvet.webp">
     <script src="script.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#invitation">Перейти к приглашению</a>
     <main class="invitation-page">
       <section class="hero" aria-labelledby="couple-names">
-        <picture class="hero-photo" aria-hidden="true">
-          <source srcset="assets/photos/cover-480.webp 480w, assets/photos/cover-960.webp 960w, assets/photos/cover-1440.webp 1440w" sizes="(max-width: 520px) 100vw, 520px">
-          <img src="assets/photos/cover-960.webp" width="3480" height="5220" alt="" fetchpriority="high">
-        </picture>
         <div class="hero-shade"></div>
-        <div class="hero-ornament" aria-hidden="true">✳</div>
-        <div class="hero-intro">
-          <p class="eyebrow">THE WEDDING DAY</p>
-          <p class="hero-date">14 <span>·</span> 11 <span>·</span> 2026</p>
-        </div>
+        <div class="hero-intro"><p class="hero-title">Приглашение</p><p class="eyebrow">НА СВАДЬБУ</p></div>
         <div class="envelope-scene" aria-label="Свадебное приглашение Ozal и Rusala">
+          <img class="hero-hands" src="assets/velvet/gloves.webp" width="1536" height="1024" alt="" aria-hidden="true">
           <div class="envelope-back"></div>
           <div class="envelope-flap envelope-flap-back" aria-hidden="true">
-            <svg viewBox="0 0 420 180" preserveAspectRatio="none"><defs><linearGradient id="lining-shade" x2="0" y2="1"><stop stop-color="#d3ccb8"/><stop offset=".45" stop-color="#ebe5d5"/><stop offset="1" stop-color="#f8f4e8"/></linearGradient></defs><path d="M0 0H420L221 168Q210 177 199 168Z" fill="url(#lining-shade)"/><path d="M5 3L201 163Q210 171 219 163L415 3" fill="none" stroke="#b3aa94" stroke-opacity=".35"/><path d="M11 3L201 156Q210 164 219 156L409 3" fill="none" stroke="#faf8f2" stroke-opacity=".65"/></svg>
+            <svg viewBox="0 0 420 180" preserveAspectRatio="none"><defs><linearGradient id="lining-shade" x2="0" y2="1"><stop stop-color="#12392c"/><stop offset=".45" stop-color="#265441"/><stop offset="1" stop-color="#3a7057"/></linearGradient></defs><path d="M0 0H420L221 168Q210 177 199 168Z" fill="url(#lining-shade)"/><path d="M5 3L201 163Q210 171 219 163L415 3" fill="none" stroke="#b3aa94" stroke-opacity=".35"/><path d="M11 3L201 156Q210 164 219 156L409 3" fill="none" stroke="#faf8f2" stroke-opacity=".65"/></svg>
           </div>
           <div class="envelope-flap envelope-flap-front" aria-hidden="true">
-            <svg viewBox="0 0 420 180" preserveAspectRatio="none"><defs><linearGradient id="flap-shade" x2=".25" y2="1"><stop stop-color="#fffdf5"/><stop offset=".65" stop-color="#f2eddf"/><stop offset="1" stop-color="#e2dac8"/></linearGradient></defs><path d="M0 0H420L221 168Q210 177 199 168Z" fill="url(#flap-shade)"/><path d="M3 2L200 168Q210 176 220 168L417 2" fill="none" stroke="#a99e83" stroke-opacity=".4"/><path d="M8 2L201 162Q210 170 219 162L412 2" fill="none" stroke="#fffef8" stroke-opacity=".95"/></svg>
+            <svg viewBox="0 0 420 180" preserveAspectRatio="none"><defs><linearGradient id="flap-shade" x2=".25" y2="1"><stop stop-color="#39715a"/><stop offset=".65" stop-color="#22543e"/><stop offset="1" stop-color="#12392a"/></linearGradient></defs><path d="M0 0H420L221 168Q210 177 199 168Z" fill="url(#flap-shade)"/><path d="M3 2L200 168Q210 176 220 168L417 2" fill="none" stroke="#a99e83" stroke-opacity=".4"/><path d="M8 2L201 162Q210 170 219 162L412 2" fill="none" stroke="#fffef8" stroke-opacity=".95"/></svg>
           </div>
           <div class="card-track">
             <div class="heart-card">
               <img class="heart-lace" src="assets/ornaments/heart-lace.svg" width="420" height="410" alt="" aria-hidden="true">
               <div class="heart-lettering">
-                <h1 id="couple-names" aria-label="Ozal &amp; Rusala"><span>Ozal</span><span class="ampersand">&amp;</span><span>Rusala</span></h1>
+                <p class="card-initials">O<span>&amp;</span>R</p>
                 <div class="heart-rule" aria-hidden="true"></div>
                 <p class="heart-date">14.11.2026</p>
               </div>
             </div>
           </div>
           <div class="envelope-front" aria-hidden="true">
-            <img class="envelope-paper" src="assets/ornaments/envelope-paper.svg" width="420" height="240" alt="">
+            <img class="envelope-paper" src="assets/velvet/envelope-paper.svg" width="420" height="240" alt="">
             <div class="envelope-monogram">O<span>&amp;</span>R</div>
           </div>
           <div class="wax-seal" aria-hidden="true">
-            <img src="assets/ornaments/wax-seal.svg" width="120" height="120" alt="">
+            <img src="assets/velvet/wax-seal.svg" width="120" height="120" alt="">
             <span class="wax-monogram">O<span>&amp;</span>R</span>
           </div>
         </div>
-        <a class="scroll-cue" href="#invitation"><span>ДЛЯ САМЫХ БЛИЗКИХ</span><span class="scroll-line" aria-hidden="true"></span></a>
+        <div class="hero-signature"><h1 id="couple-names">Ozal <span>&amp;</span> Rusala</h1><p>ВМЕСТЕ И НАВСЕГДА</p></div>
+        <a class="scroll-cue" href="#invitation" aria-label="Перейти к приглашению"><span>ДЛЯ САМЫХ БЛИЗКИХ</span><span class="scroll-line" aria-hidden="true"></span></a>
       </section>
 
       <div class="story-background">
         <section class="paper-panel invitation-panel" id="invitation" aria-labelledby="invitation-heading">
-          <img class="botanical botanical-top" src="assets/ornaments/botanical.svg" alt="" width="440" height="220" aria-hidden="true">
+          <div class="panel-seal" aria-hidden="true"><img src="assets/velvet/wax-seal.svg" width="120" height="120" alt=""><span>O&amp;R</span></div>
           <div class="portrait-frame reveal">
             <div class="portrait-window"><img class="portrait-photo" src="assets/photos/portrait-480.webp" srcset="assets/photos/portrait-480.webp 480w, assets/photos/portrait-960.webp 960w" sizes="190px" width="3648" height="5472" alt="Ozal и Rusala рядом друг с другом" loading="lazy" decoding="async"></div>
-            <img class="portrait-lace" src="assets/ornaments/oval-lace.svg" alt="" width="230" height="300" aria-hidden="true">
           </div>
           <div class="invitation-message reveal">
             <p class="eyebrow green-eyebrow">МЫ ЖДЁМ ИМЕННО ВАС</p>
@@ -97,30 +91,24 @@
             </table>
             <p class="calendar-date">14 ноября · суббота</p>
           </div>
-          <img class="botanical botanical-bottom" src="assets/ornaments/botanical.svg" alt="" width="440" height="220" aria-hidden="true">
         </section>
 
+        <div class="fabric-divider" aria-hidden="true"><img src="assets/velvet/drapery.webp" width="1774" height="887" alt="" loading="lazy"></div>
         <section class="location-section" id="location" aria-labelledby="location-heading">
-          <div class="reveal">
-            <p class="eyebrow">ТАМ, ГДЕ СОБЕРУТСЯ БЛИЗКИЕ</p>
-            <h2 class="calligraphic" id="location-heading">Место встречи</h2>
-            <img class="divider divider-light" src="assets/ornaments/divider.svg" width="150" height="24" alt="" aria-hidden="true">
-            <img class="venue-illustration" src="assets/ornaments/villa-barvikha.svg" width="800" height="450" alt="Рисунок фасада Villa Барвиха 135 с колоннами, арочными окнами и балконом" loading="lazy" decoding="async">
-            <p class="venue-pretitle">НАША СВАДЬБА ПРОЙДЁТ В</p>
+          <div class="venue-drawing reveal"><p class="eyebrow">ТАМ, ГДЕ СОБЕРУТСЯ БЛИЗКИЕ</p><h2 class="calligraphic" id="location-heading">Место встречи</h2>
+          <img class="venue-illustration" src="assets/ornaments/villa-barvikha.svg" width="800" height="450" alt="Рисунок фасада Villa Барвиха 135 с колоннами, арочными окнами и балконом" loading="lazy" decoding="async"></div>
+          <div class="venue-card reveal"><div class="panel-seal" aria-hidden="true"><img src="assets/velvet/wax-seal.svg" width="120" height="120" alt=""><span>O&amp;R</span></div>
+            <p class="venue-pretitle">Праздник состоится</p>
             <h3 class="venue-name">Villa <span>Барвиха 135</span></h3>
             <p class="venue-address">Московская область,<br>посёлок Барвиха, дом 135</p>
+            <a class="button button-ivory" href="https://yandex.ru/maps/org/villa_barvikha_135/89145166160/" target="_blank" rel="noopener noreferrer">ОТКРЫТЬ НА КАРТЕ <span aria-hidden="true">↗</span></a>
+            <div class="time-ornament"><div><p class="time-label">ЖДЁМ ВАС</p><p class="event-time"><time datetime="2026-11-14T18:00:00+03:00">18:00</time></p><p class="time-date">14 НОЯБРЯ 2026</p></div></div>
           </div>
-          <div class="time-ornament reveal">
-            <span class="time-wing" aria-hidden="true"></span>
-            <div><p class="time-label">ЖДЁМ ВАС</p><p class="event-time"><time datetime="2026-11-14T18:00:00+03:00">18:00</time></p><p class="time-date">14 НОЯБРЯ 2026</p></div>
-            <span class="time-wing" aria-hidden="true"></span>
-          </div>
-          <a class="button button-ivory reveal" href="https://yandex.ru/maps/org/villa_barvikha_135/89145166160/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 20 24" aria-hidden="true"><path d="M18 9c0 6-8 13-8 13S2 15 2 9a8 8 0 1 1 16 0Z"/><circle cx="10" cy="9" r="2.5"/></svg>ОТКРЫТЬ НА КАРТЕ<span aria-hidden="true">↗</span></a>
-          <p class="location-footnote reveal">Пусть этот вечер станет<br>одним из наших общих тёплых воспоминаний.</p>
+          <img class="venue-flowers" src="assets/velvet/flowers.webp" width="1536" height="1024" alt="" aria-hidden="true" loading="lazy">
         </section>
 
         <section class="paper-panel countdown-panel" aria-labelledby="countdown-heading">
-          <img class="botanical botanical-top" src="assets/ornaments/botanical.svg" alt="" width="440" height="220" aria-hidden="true">
+          <div class="panel-seal" aria-hidden="true"><img src="assets/velvet/wax-seal.svg" width="120" height="120" alt=""><span>O&amp;R</span></div>
           <div class="reveal countdown-content">
             <p class="eyebrow green-eyebrow">СЧИТАЕМ МГНОВЕНИЯ</p>
             <h2 class="calligraphic" id="countdown-heading">До нашей встречи</h2>
@@ -138,17 +126,17 @@
             <img class="divider" src="assets/ornaments/divider.svg" width="150" height="24" alt="" aria-hidden="true">
             <p class="countdown-afterword">Самое прекрасное в этом дне —<br>что вы будете рядом.</p>
           </div>
-          <img class="botanical botanical-bottom" src="assets/ornaments/botanical.svg" alt="" width="440" height="220" aria-hidden="true">
         </section>
 
+        <div class="fabric-divider" aria-hidden="true"><img src="assets/velvet/drapery.webp" width="1774" height="887" alt="" loading="lazy"></div>
         <section class="closing-section" aria-labelledby="closing-heading">
           <picture class="closing-photo">
             <source srcset="assets/photos/closing-480.webp 480w, assets/photos/closing-960.webp 960w, assets/photos/closing-1440.webp 1440w" sizes="(max-width: 520px) 100vw, 520px">
             <img src="assets/photos/closing-960.webp" width="2145" height="3217" alt="Ozal и Rusala держатся за руки и улыбаются" loading="lazy" decoding="async">
           </picture>
-          <div class="closing-overlay"></div>
           <div class="closing-content reveal">
             <p id="closing-heading">Будем счастливы<br>разделить этот день с вами</p>
+            <img class="closing-flowers" src="assets/velvet/flowers.webp" width="1536" height="1024" alt="" aria-hidden="true" loading="lazy">
             <span class="closing-with-love">С любовью,</span>
             <h2>Ozal <span>&amp;</span> Rusala</h2>
             <p class="closing-date">14 · 11 · 2026</p>
