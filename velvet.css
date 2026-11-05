@@ -10,7 +10,7 @@ body::before { background: radial-gradient(ellipse at center, #38644c44, #051e18
 .hero-title { font-size: 48px; font-style: italic; letter-spacing: -1.7px; line-height: 1.05; }
 .hero-intro .eyebrow { margin-top: 9px; letter-spacing: 3px; font-size: 10px; }
 .envelope-scene { width: 74%; margin-top: 19px; }
-.hero-hands { position: absolute; z-index: 7; left: -30%; top: 38%; width: 160%; max-width: none; height: auto; pointer-events: none; filter: drop-shadow(0 8px 8px #0004); }
+.hero-hands { position: absolute; z-index: 0; left: -33.333%; top: 32.3%; width: 166.666%; max-width: none; height: auto; pointer-events: none; }
 .envelope-back { background: linear-gradient(135deg, #082e22, #2e634b 50%, #0c3526); border-color: #173e2d; box-shadow: 0 18px 24px #0006, inset 0 2px 8px #001e2055; }
 .envelope-monogram { color: #9db699; text-shadow: 0 1px 0 #d4e5c855, 0 -1px 0 #001d1977; }
 .envelope-flap-front::after, .envelope-front::after { opacity: .28; }
