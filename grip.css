@@ -1,0 +1,52 @@
+/* Registered photo layers from a single physical grip, in one camera space. */
+.grip-scene { aspect-ratio: 848 / 1202.173913; perspective-origin: 50% 54%; }
+.hero-signature { margin-top: clamp(62px, 15.5vw, 82px); }
+.grip-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+.grip-frame { position: absolute; left: -38.443396%; top: 34.867993%; width: 181.132075%; aspect-ratio: 3 / 2; pointer-events: none; }
+.grip-frame > svg { display: block; width: 100%; height: 100%; overflow: hidden; }
+.grip-lining { z-index: 1; filter: drop-shadow(0 12px 12px #001c1855); }
+.grip-pocket { z-index: 4; }
+.grip-flap { transform-origin: 50% 22.4609375%; transform: rotateX(180deg); }
+.grip-flap-back { z-index: 2; }
+.grip-flap-front { z-index: 5; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.grip-scene .card-track { clip-path: polygon(0 0, 100% 0, 100% 58.93%, 95.455% 58.93%, 95.455% 98%, 4.545% 98%, 4.545% 58.93%, 0 58.93%); }
+.grip-scene .heart-card { top: 25%; }
+.grip-contact { z-index: 6; opacity: 0; visibility: hidden; }
+.grip-hand { opacity: 1; visibility: hidden; }
+.grip-hand-rear { z-index: 0; }
+.grip-hand-front { z-index: 7; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .grip-flap { animation: open-flap 2.7s 1.9s cubic-bezier(.4, 0, .25, 1) both; }
+  .grip-scene .heart-card { animation: grip-lift-card 3.8s 3.4s cubic-bezier(.35, 0, .2, 1) both; }
+  .grip-hand-left { animation: release-left-hand 2s 1.4s cubic-bezier(.45, 0, .3, 1) both; }
+  .grip-hand-right { animation: release-right-hand 2s 1.4s cubic-bezier(.45, 0, .3, 1) both; }
+  .grip-contact { animation: release-contact .28s 1.4s ease-out both; }
+
+  @keyframes release-left-hand {
+    0% { transform: translate3d(0, 0, 0); visibility: visible; }
+    99% { visibility: visible; }
+    100% { transform: translate3d(-45%, -12px, 0); visibility: hidden; }
+  }
+  @keyframes release-right-hand {
+    0% { transform: translate3d(0, 0, 0); visibility: visible; }
+    99% { visibility: visible; }
+    100% { transform: translate3d(45%, 12px, 0); visibility: hidden; }
+  }
+  @keyframes release-contact {
+    0% { opacity: 1; visibility: visible; }
+    99% { visibility: visible; }
+    100% { opacity: 0; visibility: hidden; }
+  }
+  @keyframes grip-lift-card {
+    0% { transform: translate3d(0, 78%, 0); opacity: 0; }
+    8% { opacity: 1; }
+    100% { transform: translate3d(0, 0, 0); opacity: 1; }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grip-hand, .grip-contact { visibility: hidden; }
+  .grip-flap { transform: rotateX(180deg); }
+  .grip-scene .heart-card { opacity: 1; transform: none; }
+}

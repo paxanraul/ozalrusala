@@ -10,7 +10,6 @@ body::before { background: radial-gradient(ellipse at center, #38644c44, #051e18
 .hero-title { font-size: 48px; font-style: italic; letter-spacing: -1.7px; line-height: 1.05; }
 .hero-intro .eyebrow { margin-top: 9px; letter-spacing: 3px; font-size: 10px; }
 .envelope-scene { width: 74%; margin-top: 19px; }
-.hero-hands { position: absolute; z-index: 7; left: -33.333%; top: 32.3%; width: 166.666%; max-width: none; height: auto; opacity: 0; visibility: hidden; pointer-events: none; filter: drop-shadow(0 2px 1.5px #001c1c55); }
 .envelope-back { background: linear-gradient(135deg, #082e22, #2e634b 50%, #0c3526); border-color: #173e2d; box-shadow: 0 18px 24px #0006, inset 0 2px 8px #001e2055; }
 .envelope-monogram { color: #9db699; text-shadow: 0 1px 0 #d4e5c855, 0 -1px 0 #001d1977; }
 .envelope-flap-front::after, .envelope-front::after { opacity: .28; }
@@ -147,17 +146,4 @@ footer > span:first-child { display: none; }
   .card-initials { font-size: 65px; }
   .countdown-number { font-size: 34px; }
   .countdown > div { min-width: 30px; }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .hero-hands { animation: fade-hands 1.6s 1.65s cubic-bezier(.4, 0, .2, 1) both; }
-  @keyframes fade-hands {
-    0% { opacity: 1; visibility: visible; }
-    99% { visibility: visible; }
-    100% { opacity: 0; visibility: hidden; }
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-hands { transform: none; }
 }
